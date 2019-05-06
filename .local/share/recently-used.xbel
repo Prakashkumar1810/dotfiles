@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/prakash/Downloads/wallpaper.jpg" added="2019-04-19T16:28:22Z" modified="2019-04-19T16:32:07Z" visited="2019-04-19T16:28:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-04-19T16:32:07Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prakash/Downloads/fontawesome-free-5.8.1-desktop.zip" added="2019-04-19T17:06:13Z" modified="2019-04-19T17:06:13Z" visited="2019-04-19T17:06:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-04-19T17:06:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prakash/Downloads/wp2429386.jpg" added="2019-05-03T21:00:44Z" modified="2019-05-03T21:00:44Z" visited="2019-05-03T21:00:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-05-03T21:00:44Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prakash/Downloads/hd-wallpaper-41.jpg" added="2019-05-03T21:02:21Z" modified="2019-05-03T21:02:21Z" visited="2019-05-03T21:02:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-05-03T21:02:21Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prakash/Downloads/fontawesome-free-5.8.1-desktop(1).zip" added="2019-05-05T15:30:22Z" modified="2019-05-05T15:30:22Z" visited="2019-05-05T15:30:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-05-05T15:30:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prakash/ss.png" added="2019-05-06T05:51:38Z" modified="2019-05-06T05:51:38Z" visited="2019-05-06T05:51:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-05-06T05:51:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prakash/sss.png" added="2019-05-06T05:51:47Z" modified="2019-05-06T05:51:47Z" visited="2019-05-06T05:51:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-05-06T05:51:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prakash/Downloads/Font-Awesome-4.7.0.tar.gz" added="2019-05-06T06:10:51Z" modified="2019-05-06T06:10:51Z" visited="2019-05-06T06:10:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-05-06T06:10:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prakash/.config/polybar/config" added="2019-05-06T06:31:45Z" modified="2019-05-06T06:31:45Z" visited="2019-05-06T06:31:45.441760Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;subl3 %u&apos;" modified="2019-05-06T06:31:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
