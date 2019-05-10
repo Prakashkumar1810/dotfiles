@@ -91,12 +91,19 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-# Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+## Pulse Audio controls this goes over 100% avoid it
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
-# # Sreen brightness controls
+### Amixer Audio controls use it
+
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+ #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%- #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle # mute sound
+
+
+### Sreen brightness controls
 bindsym XF86MonBrightnessUp exec light -A 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -U 20 # decrease screen brightness
 
@@ -113,6 +120,7 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -206,8 +214,6 @@ client.urgent           $warn  $warn      $warn  $warn
 #	}
 #}
 
-#####polybar####
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 
 #run network manager applet at startup
@@ -219,11 +225,18 @@ for_window [class=".*"] border pixel 5
 # Add gaps
 gaps inner 10
 
+#start compton for Transparency
+exec compton
+
 # set wallpaper
 #exec feh --bg-scale ~/.pictures/wallpaper.jpg
 
 #set last colorscheme that was in use using pywal
 exec wal -R
 
-#start compton for Transparency
-exec compton
+#####polybar####
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+#####xfce4-panel#####
+#exec_always --no-startup-id $HOME/.config/i3/xfce4-panel.sh
+
